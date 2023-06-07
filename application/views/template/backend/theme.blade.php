@@ -180,12 +180,14 @@
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="{{ site_url('backend/dashboard') }}">
               <span data-feather="home" class="align-text-bottom"></span>
+              <i class="bi bi-house"></i>
               Dashboard
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ site_url('backend/article/list') }}">
               <span data-feather="file" class="align-text-bottom"></span>
+              <i class="bi bi-envelope"></i>
               List Article
             </a>
           </li>
